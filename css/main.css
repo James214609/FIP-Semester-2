@@ -52,13 +52,31 @@ display:none;
    margin: 0;
 }
 
-@media screen and (max-width: 767px) {
-   
-   .hero {
-      display: block;
+#main-nav li a {
+   display: block;
+   padding: 10px 0 10px 0;
+   text-align: center;
+   color: black;
    }
 
+.social-media ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
 }
+
+.footer li a {
+   display: block;
+   padding-top: 5px;
+   text-align: left;
+   color: white;
+   }
+
+   .footer ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+   }
 
 @media screen and (min-width: 768px) {
    #logo {
@@ -77,11 +95,23 @@ display:none;
    color: black;
    }
 
+   #main-nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   }
+
    #main-nav-header {
     display: flex;
     align-items: center;
     justify-content: center;
    }
+
+   .social-media ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
 
    #burger-con {
     display: block;
@@ -96,6 +126,12 @@ display:none;
    padding-top: 5px;
    text-align: left;
    color: white;
+   }
+
+   .footer ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
    }
 
    #hero-main {
