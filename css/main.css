@@ -1,3 +1,5 @@
+/* ---General Styles--- */
+
 #mobile-outline {
    outline: 20px solid #333;
    max-width: 412px;
@@ -12,6 +14,17 @@ display:none;
 .hero {
       display: block;
    }
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+   text-decoration: none;
+   transition: all .5s ease-in-out;
+}
+
+/* ---Main Nav--- */
 
 #main-nav button {
     background: url(../images/burger.svg) center no-repeat;
@@ -39,26 +52,51 @@ display:none;
 }
 
 #burger-con {
-    display: none;
+	margin-top: 20px;
+	display: none;
+   margin-bottom: 20px;
 }
 
 #burger-con.slide-toggle {
     display: block;
 }
 
+#book-now-header {
+    display: none;
+}
+
+#logo {
+    padding: 10px 0 10px 0;
+   } 
+
 #main-nav ul {
    list-style: none;
    padding: 0;
    margin: 0;
 }
-
 #main-nav li a {
-   display: block;
-   padding: 10px 0 10px 0;
-   text-align: center;
-   color: black;
-   }
+	display: block;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	color: black;
+}
 
+#main-nav li {
+	border-bottom: 1px solid #efefef;
+}
+
+#main-nav li:first-child {
+	border-top: 1px solid #efefef;
+}
+
+#logo {
+   margin-bottom: 20px;
+   max-width: 288px;
+}
+
+#main-nav li:last-child {
+	margin-bottom: 10px;
+}
 .social-media ul {
    list-style: none;
    padding: 0;
@@ -78,35 +116,38 @@ display:none;
       margin: 0;
    }
 
+/* ---Tablet Sized Screens--- */
+
 @media screen and (min-width: 768px) {
    #logo {
     order: -1;
-    padding: 10px 0 10px 0;
+    margin-top: 32px;
    } 
 
    #button {
     display: none;
    }
 
+   #burger-con ul li, #burger-con ul li:first-child {
+      border: none;
+      display: inline;
+   }
+
    #main-nav li a {
-   display: block;
-   padding: 10px 0 10px 0;
-   text-align: center;
-   color: black;
+      display: inline;
    }
 
-   #main-nav ul {
-   list-style: none;
-   padding: 0;
-   margin: 0;
+   #burger-con ul li {
+      margin-right: 10px;
    }
 
-   #main-nav-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   #burger-con ul li:last-child {
+      margin-right: 0;
    }
 
+    #button {
+        display: none;
+    }
    .social-media ul {
    list-style: none;
    padding: 0;
@@ -136,5 +177,27 @@ display:none;
 
    #hero-main {
     height: 455px;
+   }
+}
+
+/* ---Desktop Sized Screens--- */
+
+@media screen and (min-width: 1200px) {
+   
+   
+   
+   #burger-con {
+      font-size: 16px;
+      margin-top: 28px;
+   }
+
+   #burger-con ul li {
+      margin-right: 25px;
+   }
+
+   #main-nav {
+      margin-top: 2%;
+      margin-bottom: 2%;
+      margin-right: 25px;
    }
 }
