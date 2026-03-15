@@ -97,10 +97,17 @@ a {
 #main-nav li:last-child {
 	margin-bottom: 10px;
 }
+
 .social-media ul {
    list-style: none;
    padding: 0;
    margin: 0;
+}
+
+#sign-up-header {
+   background-color: black;
+   color: white;
+   border-radius: 20px;
 }
 
 .footer li a {
@@ -122,40 +129,6 @@ a {
    #logo {
     order: -1;
     margin-top: 32px;
-   } 
-
-   #button {
-    display: none;
-   }
-
-   #burger-con ul li, #burger-con ul li:first-child {
-      border: none;
-      display: inline;
-   }
-
-   #main-nav li a {
-      display: inline;
-   }
-
-   #burger-con ul li {
-      margin-right: 10px;
-   }
-
-   #burger-con ul li:last-child {
-      margin-right: 0;
-   }
-
-    #button {
-        display: none;
-    }
-   .social-media ul {
-   list-style: none;
-   padding: 0;
-   margin: 0;
-}
-
-   #burger-con {
-    display: block;
    }
 
    #book-now-hero {
@@ -184,10 +157,43 @@ a {
 
 @media screen and (min-width: 1200px) {
    
-   
+   #button {
+    display: none;
+   }
+
+   #burger-con ul li, #burger-con ul li:first-child {
+      border: none;
+      display: inline;
+   }
+
+   #main-nav li a {
+      display: inline;
+   }
+
+   #burger-con ul li {
+      margin-right: 10px;
+   }
+
+   #burger-con ul li:last-child {
+      margin-right: 0;
+   }
+
+    #button {
+        display: none;
+    }
+
+   .social-media ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   }
+
+   #burger-con {
+    display: block;
+   }
    
    #burger-con {
-      font-size: 16px;
+      font-size: 12px;
       margin-top: 28px;
    }
 
