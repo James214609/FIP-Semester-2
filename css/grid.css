@@ -79,9 +79,9 @@ body, p, h1, h2, h3, h4, h5 {
 }
 
 .history {
-    background-color: limegreen;
+    background-color: green;
     color: black;
-    border-radius: 5px;
+    border-radius: 10px;
    padding: 20px;
    text-align: center;
    margin-top: 10px;
@@ -92,7 +92,7 @@ body, p, h1, h2, h3, h4, h5 {
 .product {
     background-color: orange;
     color: black;
-    border-radius: 5px;
+    border-radius: 10px;
    padding: 20px;
    text-align: center;
    margin-top: 10px;
@@ -100,10 +100,31 @@ body, p, h1, h2, h3, h4, h5 {
     
 }
 
+.nutrition {
+   background-color: white;
+   color: black;
+   border-radius: 20px;
+   padding: 20px;
+   margin-top: 10px;
+   margin-bottom:10px;
+}
+
+.nutrition h4 {
+   text-align: center;
+}
+
+.nutrition p {
+   text-align: left;
+}
+
+.nutrition li {
+   text-align: left;
+   list-style: none;
+}
+
 .social-media {
     background-color: red;
     color: white;
-    text-align: center;
     border-radius: 20px;
    padding: 20px;
    text-align: center;

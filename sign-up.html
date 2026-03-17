@@ -26,35 +26,35 @@
                     </ul>
                 </div>
         </nav>
+        
         <div id="logo" class="col-start-1 col-end-2 m-col-start-1 m-col-end-3">
             <img src="images/coca-cola-logo.svg" alt="Coca-Cola logo">
         </div>
-            <div id="sign-up-header" class="box col-start-4 col-end-5 m-col-start-11 m-col-end-13">
+            <div id="sign-up-header" class="box col-start-3 col-end-5 m-col-start-11 m-col-end-13">
                 <p><a href="sign-up.html">Sign Up</a></p>
             </div>
         </header>
-      <main class="grid-con center-grid-con">
-        <div class="col-span-full">
+      <main class="full-width-grid-con grid-con center-grid-con">
+        <section class="box history col-span full m-col-start-3 m-col-end-11">
         <h2>Sign Up</h2>
         <h3>Everything In One Place</h3>
         <p>Your account gives you access to Quatro and other brands of The Coca-Cola Company</p>
-    </div>
-    <section class="grid-con center-grid-con col-span-full l-col-start-4 l-col-end-10">
+        </section>
+        <section class="box social-media col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+            <h2>Contact Form</h2>
+            <p>Fill out your first name, last name and email address and we will send a verification code to that email to verify you own it</p>
+        </section>
+    <div class="grid-con center-grid-con col-span-full l-col-span-full">
         <h3 class="hidden">Sign-Up Form</h3>
-    <form action="form.php" method="post">
-        
-        <label>Email Address:</label>
-        <input id="email" type="email" placeholder="Yourname.com">
-        <p>We will send a verification code to that email to verify you own it.</p>
-        <input type="submit" value="Continue">
-    <p>Or</p>
-    <input type="submit" value="Continue with Google">
-    <input type="submit" value="Continue with Facebook">
-    <input type="submit" value="Continue with Apple">
-    </form>
-    </section>
-<div>
-    <p>Already have an account?</p><p><a href="#">Log In</a></p>
+        <p>Email Address</p>
+                    <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="contactInfo" type="text" required placeholder="yourname[at]email.com">
+                    </form>
+                    <input name="submit" type="submit" value="Send">
+         </div>
+    </div>
+<div class="grid-con center-grid-con col-span-full l-col-span-full">
+    <p>Already have an account?<a href="#">Log In</a></p>
 </div>
     </main>
     <footer class="footer grid-con center-grid-con">
@@ -63,7 +63,8 @@
         </div>
         <div class="footer m-col-start-7 m-col-end-13">
             <p><a href="#">Privacy Policy</a></p>
-        </div>
+        </div>    
+        </main>
     </footer>
     <script src="js/main.js"></script>
 </body>
