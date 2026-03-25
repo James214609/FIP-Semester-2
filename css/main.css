@@ -129,6 +129,12 @@ a {
     display: none;
    }
     
+   .cinemagraph {
+   padding: 20px;
+   text-align: center;
+   max-width: 1200px;
+}
+
    .footer li a {
    display: block;
    padding-top: 5px;
@@ -167,6 +173,12 @@ a {
    #burger-con ul li {
       margin-right: 10px;
    }
+
+   .cinemagraph {
+   padding: 20px;
+   text-align: center;
+   max-width: 1200px;
+}
 
    #burger-con ul li:last-child {
       margin-right: 0;
