@@ -213,3 +213,55 @@ a {
       margin-right: 25px;
    }
 }
+
+/*Pop-Up Instructions*/
+
+#popup {
+    width: 150vw;
+    height: 150vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(98, 95, 95, 0.86);
+    z-index: 2;
+    display:none;
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 40px bottom;
+}
+
+#popup:target { 
+    display: block; 
+    opacity: 1;
+}
+
+#popup_close {
+    position: relative;
+    top: 20px;
+    left: 90%;
+
+    color: white;
+    font-size: 3em;
+
+    text-decoration: none;
+
+    font-weight: bolder;
+}
+
+#popup_close:hover { 
+    opacity: 0.5; color: red; 
+}
+
+#popup article {
+    margin-left: 40%;
+    margin-top: 50px;
+    width: 600px;
+}
+
+#popup_heading {
+    font-size: 32px;
+}
+
+#popup_text {
+    line-height: 24px;
+}

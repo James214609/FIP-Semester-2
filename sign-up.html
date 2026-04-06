@@ -26,7 +26,6 @@
                     </ul>
                 </div>
         </nav>
-        
         <div id="logo" class="col-start-1 col-end-2 m-col-start-1 m-col-end-3">
             <img src="images/coca-cola-logo.svg" alt="Coca-Cola logo">
         </div>
@@ -35,7 +34,7 @@
             </div>
         </header>
       <main class="full-width-grid-con grid-con center-grid-con">
-        <section class="box history col-span full m-col-start-3 m-col-end-11">
+        <section class="box history col-span-full m-col-start-3 m-col-end-11">
         <h2>Sign Up</h2>
         <h3>Everything In One Place</h3>
         <p>Your account gives you access to Quatro and other brands of The Coca-Cola Company</p>
@@ -44,18 +43,19 @@
             <h2>Contact Form</h2>
             <p>Fill out your first name, last name and email address and we will send a verification code to that email to verify you own it</p>
         </section>
-    <div class="grid-con center-grid-con col-span-full l-col-span-full">
-        <h3 class="hidden">Sign-Up Form</h3>
-        <p>Email Address</p>
+        <section class="col-span-full l-col-span-full form-con">
+            <h3 class="hidden">Sign-Up Form</h3>
+            <p>Email Address</p>
                     <form action="email.php" method="POST" enctype="text/plain">
                     <input name="contactInfo" type="text" required placeholder="yourname[at]email.com">
-                    </form>
                     <input name="submit" type="submit" value="Send">
-         </div>
-    </div>
-<div class="grid-con center-grid-con col-span-full l-col-span-full">
-    <p>Already have an account?<a href="#">Log In</a></p>
-</div>
+                    </form>
+                    <p>Alternatively</p>
+                <button>Login With Google</button>
+                <button>Login With Facebook</button>
+                <button>Login With Apple</button>
+             <p>Already have an account?<a href="#">Log In</a></p>
+        </section>
     </main>
     <footer class="footer grid-con center-grid-con">
         <div class="footer m-col-start-1 m-col-end-7">
@@ -64,7 +64,6 @@
         <div class="footer m-col-start-7 m-col-end-13">
             <p><a href="#">Privacy Policy</a></p>
         </div>    
-        </main>
     </footer>
     <script src="js/main.js"></script>
 </body>

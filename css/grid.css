@@ -54,6 +54,13 @@ body, p, h1, h2, h3, h4, h5 {
    min-width: 412px;
 }
 
+.history-image {
+   padding: 20px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom:10px;
+}
+
 .full-width-grid-con {
    /* set this container as a grid, with 3 columns
    the other grid will sit in the middle column, this allows for overlapping content */
@@ -149,6 +156,10 @@ body, p, h1, h2, h3, h4, h5 {
 
 .center-grid-con {
    margin: 0 auto;
+}
+
+.form-con {
+   justify-content: center;
 }
 
 /* ---Mobile Library Grid Styles--- */
