@@ -4,10 +4,10 @@ console.log("fired");
 const button = document.querySelector("#button");
 const burgerCon = document.querySelector("#burger-con");
 const lightBox = document.querySelector("#popup");
-const links = document.querySelectorAll(".popup");
+const links = document.querySelectorAll(".popup-link");
 const info = document.querySelector("#popup description");
 
-console.log(lightBox);
+const content = document.querySelector("#popup article");
 
 let NewProduct = [
 	{
@@ -17,7 +17,11 @@ let NewProduct = [
 	{
 		Title: "Juice Boxes",
 		Description: "Quatro Juice Boxes are a quick way to give your kids a refreshing drink in their lunch, their sporting events or out on their daily life. We’re currently doing a survey on whether carbonated juice or regular juice should be used for the boxes, and once the survey has been completed at the end of May, we will start production on box design and capacity to prepare for the 2026-27 school year."
-	}
+	},
+    {
+        Title: "The Flavour Family",
+        Description: "The Falvour Family is here to give you a different refreshing taste. We have Papaya, Mango, Lime and Kiwi, with more flavours such as Apple, and Grapefuit to come next year"
+    }
 ];
 
 console.log(NewProduct);

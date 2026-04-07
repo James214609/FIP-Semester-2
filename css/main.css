@@ -216,6 +216,10 @@ a {
 
 /*Pop-Up Instructions*/
 
+.popup-link {
+   padding: auto;
+}
+
 #popup {
     width: 150vw;
     height: 150vh;
@@ -224,7 +228,7 @@ a {
     left: 0;
     background-color: rgba(98, 95, 95, 0.86);
     z-index: 2;
-    display:none;
+    display: none;
     background-repeat: no-repeat;
     background-size: 55vh;
     background-position: 40px bottom;
@@ -258,7 +262,7 @@ a {
     width: 600px;
 }
 
-#popup_heading {
+#lb_heading {
     font-size: 32px;
 }
 
