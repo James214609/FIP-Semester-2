@@ -20,7 +20,7 @@ let NewProduct = [
 	},
     {
         Title: "The Flavour Family",
-        Description: "The Falvour Family is here to give you a different refreshing taste. We have Papaya, Mango, Lime and Kiwi, with more flavours such as Apple, and Grapefuit to come next year"
+        Description: "The Flavour Family is here to give you a different refreshing taste. We have Papaya, Mango, Lime and Kiwi, with more flavours such as Apple, and Grapefruit to come next year"
     }
 ];
 
